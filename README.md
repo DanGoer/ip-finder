@@ -1,6 +1,6 @@
 # IP-Address-Tracker
 
-> Another intermediate Frontend Mentor Challenge from (https://www.frontendmentor.io/home). This time with React, Tailwind and leaflet.
+A Project for my IBB class: AnwP-Entwickeln
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@
 
 ## General Information
 
-This project was created with the purpose of learning how to handle different APIs and map plugin.
+This project was created with the purpose of learning how to handle different APIs and map plugin. ALso to complete my class at the IBB
 
 ## Technologies Used
 
@@ -58,7 +58,7 @@ You can also request informations about other IPs.
 
 Project is: _complete_
 
-This is the finished version of my IP address tracker.
+This is the finished version of my IP-Finder.
 
 ## Room for Improvement
 

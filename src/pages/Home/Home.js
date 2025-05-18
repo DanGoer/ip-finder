@@ -27,6 +27,7 @@ function Home() {
       const res = await axios.get(
         `https://geo.ipify.org/api/v2/country,city?apiKey=${API_KEY}&ipAddress=${ipAddress}`
       )
+      console.log(ipAddress)
       setData(res)
     }
     getData()

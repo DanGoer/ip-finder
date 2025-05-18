@@ -15,15 +15,15 @@ function Footer() {
       </h5>
       <div className="flex flex-col md:flex-row gap-1 text-xs">
         <div className="font-bold ">
-          A challenge from{" "}
+          A Project for my{" "}
           <a
-            href="https://www.frontendmentor.io/home"
+            href="https://www.ibb.com/ibb/service-portal-fuer-ibb-teilnehmerinnen"
             target="_blank"
             rel="noopener noreferrer"
             className="text-para hover:text-but"
           >
             {" "}
-            Frontend Mentor
+            IBB class
           </a>
           .
         </div>{" "}
