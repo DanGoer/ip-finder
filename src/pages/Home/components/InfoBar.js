@@ -9,6 +9,12 @@ function InfoBar({ data }) {
           </p>
           <b className="font-medium text-lg">{data.data.IPv4}</b>
         </li>
+        <li className="flex flex-col items-center justify-center lg:items-start text-left lg:gap-2">
+          <p className="font-semibold text-[0.7rem] text-dg tracking-widest ">
+            Country
+          </p>
+          <b className="font-medium text-lg">{data.data.country_name}</b>
+        </li>
         <li className="flex flex-col items-center justify-center lg:items-start lg:gap-2 lg:border-l-2 lg:pl-6">
           <p className="font-semibold text-[0.7rem] text-dg tracking-widest">
             LOCATION
@@ -27,9 +33,15 @@ function InfoBar({ data }) {
         </li>
         <li className="flex flex-col items-center justify-center lg:items-start lg:gap-2 lg:border-l-2 lg:pl-6">
           <p className="font-semibold text-[0.7rem] text-dg tracking-widest">
-            ISP
+            Longitude
           </p>
-          <b className="font-medium text-xl">{data.data.isp}</b>
+          <b className="font-medium text-xl">{data.data.longitude}</b>
+        </li>
+        <li className="flex flex-col items-center justify-center lg:items-start lg:gap-2 lg:border-l-2 lg:pl-6">
+          <p className="font-semibold text-[0.7rem] text-dg tracking-widest">
+            Latidude
+          </p>
+          <b className="font-medium text-xl">{data.data.latitude}</b>
         </li>
       </ul>
     </section>
