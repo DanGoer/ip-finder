@@ -17,21 +17,25 @@ function Home() {
     const getIp = async () => {
       const res = await axios.get("https://geolocation-db.com/json/")
       setIPAddress(res.data.IPv4)
+      setData(res)
+      console.log(res)
     }
     getIp()
   }, [])
 
+  
+
   // Gets data for requested IP
-  useEffect(() => {
-    const getData = async () => {
-      const res = await axios.get(
-        `https://geo.ipify.org/api/v2/country,city?apiKey=${API_KEY}&ipAddress=${ipAddress}`
-      )
-      console.log(ipAddress)
-      setData(res)
-    }
-    getData()
-  }, [ipAddress])
+  //useEffect(() => {
+    //const getData = async () => {
+      //const res = await axios.get(
+        //`https://geo.ipify.org/api/v2/country,city?apiKey=${API_KEY}&ipAddress=${ipAddress}`
+      //)
+      //console.log(ipAddress)
+      //setData(res)
+    //}
+    //getData()
+  //}, [ipAddress])
 
   return (
     <main className="h-screen">

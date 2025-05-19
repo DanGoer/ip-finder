@@ -13,19 +13,19 @@ const IpMap = ({ data }) => {
     data && (
       <MapContainer
         className="h-[73vh] relative z-10"
-        center={[data.data.location.lat, data.data.location.lng]}
+        center={[data.data.latitude, data.data.longitude]}
         zoom={13}
         scrollWheelZoom={false}
       >
         <ChangeMap
           zoom={13}
-          center={[data.data.location.lat, data.data.location.lng]}
+          center={[data.data.latitude, data.data.longitude]}
         />
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={[data.data.location.lat, data.data.location.lng]}>
+        <Marker position={[data.data.latitude, data.data.longitude]}>
           <Popup>Your location</Popup>
         </Marker>
       </MapContainer>
