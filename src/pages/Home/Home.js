@@ -10,8 +10,6 @@ function Home() {
   const [ipAddress, setIPAddress] = useState("")
   const [data, setData] = useState(null)
 
-  const API_KEY = process.env.REACT_APP_IP_ADDRESS_TRACKER_API_KEY
-
   // Gets the IP from user
   useEffect(() => {
     const getIp = async () => {

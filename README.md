@@ -16,7 +16,7 @@ A Project for my IBB class: AnwP-Entwickeln
 
 ## General Information
 
-This project was created with the purpose of learning how to handle different APIs and map plugin. ALso to complete my class at the IBB
+This project was created with the purpose of learning how to handle different APIs and map plugin. Also to complete my class at the IBB
 
 ## Technologies Used
 
@@ -37,10 +37,6 @@ This project was created with the purpose of learning how to handle different AP
 For running it on your local environment first:
 
 `npm install or yarn install`
-
-You have to create an .env with a API key which you can get for free from (https://geo.ipify.org/).
-
-`REACT_APP_IP_ADDRESS_TRACKER_API_KEY=YOURAPIKEY`
 
 To run development server:
 

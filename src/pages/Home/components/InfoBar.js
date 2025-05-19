@@ -1,5 +1,4 @@
 function InfoBar({ data }) {
-  console.log(data)
   return (
     <section className="w-10/12 h-80 lg:h-min bg-white rounded-2xl items-center justify-center z-20 lg:mt-12">
       <ul className="flex flex-col gap-4 lg:flex-row py-6 lg:px-6 lg:text-left lg:gap-16 text-center">

@@ -4,13 +4,13 @@ function Footer() {
       <h5 className="text-md">
         This App was created by{" "}
         <a
-          href="https://www.linkedin.com"
+          href="www.linkedin.com/in/daniel-goergens-a613a1242"
           target="_blank"
           rel="noopener noreferrer"
           className="text-para hover:text-but"
         >
           {" "}
-          D. Goergens
+          Daniel Goergens
         </a>{" "}
       </h5>
       <div className="flex flex-col md:flex-row gap-1 text-xs">
@@ -30,7 +30,7 @@ function Footer() {
         <div>
           The code can be found here:{" "}
           <a
-            href="https://github.com/DanGoer/advice-generator"
+            href="https://github.com/DanGoer/ip-finder"
             target="_blank"
             rel="noopener noreferrer"
             className="text-para hover:text-but"
