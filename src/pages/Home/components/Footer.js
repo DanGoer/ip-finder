@@ -1,6 +1,12 @@
-function Footer() {
+function Footer({setIPAddress}) {
   return (
-    <footer className="w-full h-24 bg-gradient-to-r from-cyan-700 to-blue-800 flex flex-col items-center justify-center gap-2">
+    <footer className="w-full h-30 bg-gradient-to-r from-cyan-700 to-blue-800 flex flex-col items-center justify-center gap-2">
+      <h5>Test IP: </h5>
+      <span>
+      <button className="bg-white text-blue-700 hover:bg-gray-100 font-semibold py-2 px-4 rounded shadow" onClick={()=> setIPAddress("84.183.147.200")}>Me</button>
+      <button className="mx-2 bg-white text-blue-700 hover:bg-gray-100 font-semibold py-2 px-4 rounded shadow" onClick={()=> setIPAddress("85.5.205.227")}>Bro</button>
+      <button className="bg-white text-blue-700 hover:bg-gray-100 font-semibold py-2 px-4 rounded shadow" onClick={()=> setIPAddress("136.243.235.86")}>IBB</button>
+      </span>
       <h5 className="text-md">
         This App was created by{" "}
         <a

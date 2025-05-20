@@ -7,9 +7,10 @@ import IpMap from "./components/IpMap"
 import SearchBar from "./components/SearchBar"
 
 function Home() {
+  
   const [ipAddress, setIPAddress] = useState("")
   const [data, setData] = useState(null)
-
+  
   // Gets the IP from user
   useEffect(() => {
     const getIp = async () => {
@@ -38,7 +39,7 @@ function Home() {
         {data && <InfoBar data={data} />}
       </header>
       {data && <IpMap data={data} />}
-      <Footer />
+      <Footer setIPAddress={setIPAddress} />
     </main>
   )
 }
