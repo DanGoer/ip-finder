@@ -10,7 +10,7 @@ function Footer({setIPAddress}) {
       <h5 className="text-md">
         This App was created by{" "}
         <a
-          href="www.linkedin.com/in/daniel-goergens-a613a1242"
+          href="https://www.dangoer.de/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-para hover:text-but"
